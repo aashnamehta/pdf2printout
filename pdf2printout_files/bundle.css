@@ -1264,7 +1264,7 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit; -webkit-box-shadow: 0
 	Intro
 \* ------------------------------------------------------------ */
 
-.intro { position: relative; padding: 168px 0 314px; margin-bottom: 340px; background-repeat: no-repeat; background-position: center 99%; background-size: cover; color: #fff; background-image: -o-linear-gradient(298deg, #189aff 0%, #2d62fd 100%); background-image: linear-gradient(152deg, #189aff 0%, #2d62fd 100%); font-size: 18px; }
+.intro { position: relative; padding: 168px 0 314px;  background-repeat: no-repeat; background-position: center 99%; background-size: cover; color: #fff; background-image: -o-linear-gradient(298deg, #189aff 0%, #2d62fd 100%); background-image: linear-gradient(152deg, #189aff 0%, #2d62fd 100%); font-size: 18px; }
 
 .intro .intro__body { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center;  }
 
