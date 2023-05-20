@@ -1099,13 +1099,14 @@ nav ol { list-style: none outside none; }
 /* ------------------------------------------------------------ *\
 	Appointment
 \* ------------------------------------------------------------ */
+/*1258*/
 
 .appointments { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; 
    -webkit-box-align: center;  -ms-flex-align: center;  align-items: center; max-width: 1258px; margin: 0 auto;  padding: 104px 100px 104px; 
    background-color: #fff; color: #48494b; font-size: 13px; font-weight: 600; border-radius: 5px; -webkit-box-shadow: 0 19px 26px rgba(0, 0, 0, 0.15); 
    box-shadow: 0 19px 26px rgba(0, 0, 0, 0.15); }
 /**/
-.appointment { text-align: center; -webkit-box-flex: 0; -ms-flex: 0 1 900px; flex: 0 1 900px; max-width: 900px; }
+.appointment { text-align: center; -webkit-box-flex: 0; -ms-flex: 0 1 201px; flex: 0 1 201px; max-width: 201px; }
 
 .appointment .appointment__image { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -ms-flex-negative: 0; flex-shrink: 0; min-height: 156px; margin-bottom: 18px; }
 
