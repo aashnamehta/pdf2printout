@@ -1505,8 +1505,8 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit; -webkit-box-shadow: 0
 /* ------------------------------------------------------------ *\
 	Section Datas
 \* ------------------------------------------------------------ */
-
-.section-data { padding: 111px 0 160px; }
+/*111*/
+.section-data { padding: 131px 0 160px; }
 
 .section-data .section__title { margin-left: 5px; }
 
