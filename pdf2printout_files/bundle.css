@@ -1282,8 +1282,8 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit; -webkit-box-shadow: 0
 
 .intro .intro__actions .btn--blue { max-width: 248px;  }
 
-.intro .intro__actions .btn ~ .btn { margin-left: 20px; }
-
+/*.intro .intro__actions .btn ~ .btn { margin-left: 20px; }*/
+.intro__actions { margin-left: 20px; }
 .intro .intro__foot { position: absolute; left: 0; top: calc(100% - 256px); width: 100%; }
 
 .intro__money {
