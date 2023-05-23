@@ -1175,7 +1175,7 @@ nav ol { list-style: none outside none; }
 	Button
 \* ------------------------------------------------------------ */
 
-.btn { display: inline-block; vertical-align: middle; text-align: center; cursor: pointer; text-decoration: none; -webkit-appearance: none; -moz-appearance: none; appearance: none; }
+.btn { display: inline-block; vertical-align: middle; text-align: center; cursor: pointer; text-decoration: none; -webkit-appearance: none; -moz-appearance: none; appearance: none; justify-content: space-between;}
 
 .btn--primary { display: inline-block; width: 100%; max-width: 187px; height: 48px; border-radius: 27px; line-height: 48px; border: 0; font-size: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.2px; font-weight: bold; font-family: 'Axiforma', sans-serif; }
 
