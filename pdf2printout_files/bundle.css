@@ -1313,7 +1313,7 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit; -webkit-box-shadow: 0
 	.intro .intro__content h1 { margin-bottom: 33px; }
 	.intro .intro__actions { padding-top: 39px; }
 	.intro .intro__foot { padding-top: 78px; }
-	.intro .intro__actions .btn ~ .btn { margin-top: 23px; }
+	/*.intro .intro__actions .btn ~ .btn { margin-top: 23px; }*/
 }
 
 /* ------------------------------------------------------------ *\
