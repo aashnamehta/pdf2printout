@@ -1404,7 +1404,8 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit; -webkit-box-shadow: 0
 /* Mobile */
 
 @media (max-width: 767px) {
-	.logo img {  width: 101px; }	
+	.logo img {  width: 101px; 
+  height: 100px;}	
 }
 
 /* ------------------------------------------------------------ *\
