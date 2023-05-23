@@ -1199,7 +1199,7 @@ nav ol { list-style: none outside none; }
 /* Mobile */
 
 @media (max-width: 767px) {
-	.btn--primary { max-width: 203px; margin-bottom: 10px; }	
+	.btn--primary { max-width: 203px; margin-bottom: 20px; }	
 	.btn--back-top { max-width: 155px; }		
 }
 
