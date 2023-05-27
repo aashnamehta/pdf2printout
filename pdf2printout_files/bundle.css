@@ -1186,7 +1186,7 @@ nav ol { list-style: none outside none; }
 .btn--blue { background-color: #2e63fd; color: #fff; text-align: center;}
 
 
-.btn--transparent { background-color: transparent; border: 1px solid #fff; color: #fff; margin-left: 60px; }
+.btn--transparent { background-color: transparent; border: 1px solid #fff; color: #fff; margin-left: 40px; }
 
 .btn--back-top { position: relative;  border-radius: 5px; max-width: 165px; height: 57px; line-height: 57px; background-color: #2086fe; }
 
