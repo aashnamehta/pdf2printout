@@ -1070,6 +1070,10 @@ nav ol { list-style: none outside none; }
 	.header { padding: 30px 0; }
 }
 
+<!--@media (max-width: 767px) {
+	.header__inner-aside { padding: 30px 0; }
+}-->
+
 /* ------------------------------------------------------------ *\
 	Main
 \* ------------------------------------------------------------ */
@@ -1917,7 +1921,7 @@ h5 { font-size: 30px; line-height: 1.27; letter-spacing: -0.61px;  text-align: c
 @media (max-width: 768px) {
   .connect {
     font-size: 18px; 
-    
+
     margin-left: 10px;
     white-space: normal;
   }
