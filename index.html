@@ -76,7 +76,7 @@ data-tag="font"
 </li>
 </ul>
 </nav>
-<a target="_blank" class="btn btn--primary btn--green">
+<a target="_blank" href="https://pdf2printout.ordr.live" class="btn btn--primary btn--green">
 Track Now
 </a>
 </div>
@@ -101,7 +101,7 @@ ORDER NOW&nbsp;
 </span>
 <img src="./pdf2printout_files/whatsapp-small-icon.svg" style = "position:relative; top:-2px;" width="30" height="30" alt="" >
 </a>
-<a href="https://wa.me/message/TSDQIB74MD5NP1?src=qr" target="_blank" class="btn btn--primary btn--transparent">
+<a href="https://t.me/pdf2printouts" target="_blank" class="btn btn--primary btn--transparent">
 CONTACT US&nbsp; 
 <img src="./pdf2printout_files/telegram-small-icon.svg"  style = "position:relative; top:-2px;" width="28" height="28" alt="" >
 <!--class="ico-play"-->
@@ -310,7 +310,7 @@ Available on Whatsapp and Telegram
   <img src="./pdf2printout_files/whatsapp-small-icon.svg" style = "position:relative; top:-2px;" width="30" height="30" alt="" >
   </a>
 
-  <a href="https://wa.me/message/TSDQIB74MD5NP1?src=qr" target="_blank" class="btn btn--primary btn--transparent">
+  <a href="https://t.me/pdf2printouts" target="_blank" class="btn btn--primary btn--transparent">
   CONTACT US&nbsp; 
   <img src="./pdf2printout_files/telegram-small-icon.svg"  style = "position:relative; top:-2px;" width="28" height="28" alt="" >
   <!--class="ico-play"-->
@@ -414,7 +414,8 @@ Partners
 </h6>
 </div>
 </header>
-<div class="section__body">
+<!--<div class="section__body">
+  
 <div class="partners slider-partners slick-initialized slick-slider"><div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 15000px; transform: translate3d(0px, 0px, 0px);"><div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false"><div><div class="partner" style="width: 100%; display: inline-block;">
 <div class="partner__image">
   <img src="./pdf2printout_files/amazon-icon.svg" alt="">
@@ -424,7 +425,11 @@ Partners
 Amazon
 </h5>
 </div>
-</div></div></div><div class="slick-slide slick-active" data-slick-index="1" aria-hidden="false"><div><div class="partner" style="width: 100%; display: inline-block;">
+</div>
+</div>
+</div>
+
+<div class="slick-slide slick-active" data-slick-index="1" aria-hidden="false"><div><div class="partner" style="width: 100%; display: inline-block;">
 <div class="partner__image">
 <img src="./pdf2printout_files/nimbus.svg" alt="">
 </div>
@@ -433,7 +438,8 @@ Amazon
 Nimbus
 </h5>
 </div>
-</div></div></div><div class="slick-slide slick-active" data-slick-index="2" aria-hidden="false"><div><div class="partner" style="width: 100%; display: inline-block;">
+</div></div></div>
+<div class="slick-slide slick-active" data-slick-index="2" aria-hidden="false"><div><div class="partner" style="width: 100%; display: inline-block;">
 <div class="partner__image">
 <img src="./pdf2printout_files/flipkart.svg" alt="">
 </div>
@@ -453,14 +459,130 @@ Flipkart
         </h5>
 </div>
 </div></div></div></div></div></div>
+</div>-->
+<div class="partners slider-partners slick-initialized slick-slider"><div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 15000px; transform: translate3d(0px, 0px, 0px);"></div>
+  <div class="slider">
+    <div class="slider-container">
+      <div class="slide">
+        <div class="partner">
+          <div class="partner__image">
+            <img src="./pdf2printout_files/amazon-icon.svg" alt="">
+          </div>
+          <div class="partner__content">
+          <h5>
+          Amazon
+          </h5>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="partner">
+          <div class="partner__image">
+            <img src="./pdf2printout_files/nimbus.svg" alt="">
+            </div>
+            <div class="partner__content">
+            <h5>
+            Nimbus
+            </h5>
+            </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="partner">
+          <div class="partner__image">
+            <img src="./pdf2printout_files/flipkart.svg" alt="">
+            </div>
+            <div class="partner__content">
+            <h5>
+            Flipkart
+            </h5>
+            </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="partner">
+          <div class="partner__image">
+            <img src="./pdf2printout_files/Swiggy-icon.png" alt="">
+            </div>
+            <div class="partner__content">
+              <h5>
+                Swiggy
+                </h5>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="slider-controls">
+      <button class="active"></button>
+      <button></button>
+      <button></button>
+    </div>
+  </div>
 </div>
+  <script>
+    const sliderContainer = document.querySelector('.slider-container');
+    const slides = Array.from(document.querySelectorAll('.slide'));
+    const buttons = Array.from(document.querySelectorAll('.slider-controls button'));
+
+    let currentIndex = 0;
+
+    buttons.forEach((button, index) => {
+      button.addEventListener('click', () => {
+        buttons[currentIndex].classList.remove('active');
+        slides[currentIndex].classList.remove('active');
+
+        currentIndex = index;
+
+        buttons[currentIndex].classList.add('active');
+        slides[currentIndex].classList.add('active');
+
+        sliderContainer.style.transform = `translateX(-${currentIndex * 55}%)`;
+      });
+    });
+  </script>
+
 </section>
 
 <footer class="footer" style="background-image: url(./pdf2printout_files/footer-image-2@2x.png)" ;="">
 <div class="shell">
+
+<h2>
+Let's Connect
+</h2>
 <div class="footer__content">
+<span class="connect" >
+<a>
+<img src="./pdf2printout_files/email.svg" alt="" >
+contact-us@pdf2printout.com
+</a>
+</span>
+<span class="connect">
+<a>
+<img src="./pdf2printout_files/call.svg" alt="">
++91 9643923733
+</a>
+</span>
+<span class="connect">
+<a>
+<img src="./pdf2printout_files/whatsapp.svg" alt="">
++91 9643923733
+</a>
+</span>
+<span class="connect">
+<a>
+<img src="./pdf2printout_files/location.svg" alt="" >
+B-3/107 Janakpuri, New Delhi
+</a>
+</span>
+<span class="connect">
+<a>
+<img src="./pdf2printout_files/telegram.svg" alt="" >
++91 9007222833
+</a>
+</span>
 
 </div>
+
 <div class="footer__inner">
   <a class="logo" style = "position:absolute; left:auto; " >
     <img src="./pdf2printout_files/logo-updated.svg"  width="330" height="330" style="position:relative; bottom: 65px"alt="" >

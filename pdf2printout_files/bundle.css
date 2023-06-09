@@ -989,7 +989,7 @@ nav ol { list-style: none outside none; }
 	Footer
 \* ------------------------------------------------------------ */
 
-.footer { padding: 173px 0 30px; background: -o-linear-gradient(272deg, #189aff 0%, #2d62fd 100%); background: linear-gradient(178deg, #189aff 0%, #2d62fd 100%);  background-repeat: no-repeat; background-position: center 0; background-size: cover; color: #fff; font-size: 16px; line-height: 1.5; }
+.footer { padding: 173px 0 30px; background: -o-linear-gradient(272deg, #189aff 0%, #2d62fd 100%); background: linear-gradient(178deg, #189aff 0%, #2d62fd 100%);  background-repeat: no-repeat; background-position: center 0; background-size: cover; color: #fff; font-size: 16px; line-height: 1.5;  }
 
 .footer .footer__content { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; padding: 0 10px 43px; border-bottom: 1px solid  rgba(255,255,255, .2); }
 
@@ -1722,6 +1722,113 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit; -webkit-box-shadow: 0
 	.service { padding: 0; }	
 }
 
+/*------ MY SLIDER --------*/
+.slider {
+  width: 800px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider-container {
+  width: 300%;
+  height: 100%;
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+  animation: slideAnimation 6s infinite;
+}
+
+.slider-container .slide {
+  width: 25%;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.slider-container .slide .content {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+
+}
+/*<div class="partners slider-partners slick-initialized slick-slider"><div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 15000px; transform: translate3d(0px, 0px, 0px);"><div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false"><div><div class="partner" style="width: 100%; display: inline-block;">-->*/
+.partner { display: inline-block; padding: 36px 50px 27px; min-height: 284px; max-width: 510px; background-color: #fff; border-radius: 5px; -webkit-box-shadow: 0 19px 26px rgba(0, 0, 0, 0.15); box-shadow: 0 19px 26px rgba(0, 0, 0, 0.15); -ms-flex-negative: 0; flex-shrink: 0; }
+
+h5 { font-size: 30px; line-height: 1.27; letter-spacing: -0.61px;  text-align: center; font-style: Bold; font-weight: 400; font-family: Roboto Condensed; color: #838383;}
+
+.slider-controls {
+  position: absolute;
+  bottom: 10px;
+  left: 25%;
+  transform: translateX(-50%);
+}
+
+.slider-controls button {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  background-color: #bbb;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.slider-controls button.active {
+  background-color: #555;
+}
+@media (max-width: 768px) {
+  /* Mobile view */
+  .slider-container .slide {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) {
+  /* Desktop view */
+  .slider-container .slide {
+    width: 50%;
+  }
+}
+
+
+@keyframes slideAnimation {
+  0% {
+    transform: translateX(0%);
+  }
+
+  25% {
+    transform: translateX(-25%);
+  }
+/*
+  33.33% {
+    transform: translateX(-33.33%);
+  }
+
+  66.66% {
+    transform: translateX(-66.66%);
+  }*/
+  50% {
+    transform: translateX(-50%);
+  }
+  75% {
+    transform: translateX(-75%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+
+
+
+
 /* ------------------------------------------------------------ *\
 	Slider Partners
 \* ------------------------------------------------------------ */
@@ -1803,3 +1910,5 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit; -webkit-box-shadow: 0
 /* ------------------------------------------------------------ *\
 	Themes
 \* ------------------------------------------------------------ */
+
+.connect { font-size: 25px; line-height: 1.27; letter-spacing: -0.71px;   font-style: Regular; font-weight: 400; font-family: Roboto Condensed; color: #dcdcdc; margin-bottom: "15px";}
