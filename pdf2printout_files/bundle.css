@@ -1912,3 +1912,10 @@ h5 { font-size: 30px; line-height: 1.27; letter-spacing: -0.61px;  text-align: c
 \* ------------------------------------------------------------ */
 
 .connect { font-size: 25px; line-height: 1.27; letter-spacing: -0.71px;   font-style: Regular; font-weight: 400; font-family: Roboto Condensed; color: #dcdcdc; margin-bottom: "15px";}
+
+/*Mobile*/
+@media (max-width: 768px) {
+  .connect {
+    white-space: normal;
+  }
+}
